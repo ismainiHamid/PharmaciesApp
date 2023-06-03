@@ -1,0 +1,70 @@
+html, body, #root, .ant-row {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FEFEFE;
+}
+
+.ant-table, .ant-menu {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02) !important;
+}
+
+:where(.css-dev-only-do-not-override-w8mnev).ant-table-wrapper .ant-table-pagination-right {
+    justify-content: center !important;
+}
+
+.ant-menu-item {
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.ant-menu-item svg {
+    font-size: 1em;
+}
+
+.p-menubar-button {
+    display: none;
+}
+
+.p-menubar.p-component {
+    height: 4rem;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02) !important;
+    background-color: #f5f8fc;
+    display: flex;
+    border-bottom: 1px solid #EEE;
+}
+
+.main-form, .main-form-sx {
+    padding: 2.5rem 1rem 0 1rem;
+}
+
+.main-form button, .main-form-sx button {
+    display: flex;
+    float: right;
+    margin-top: .5rem;
+}
+
+.ant-picker{
+    width: 100%;
+}
+
+.ant-modal-footer {
+    display: none;
+}
+
+.ant-form-item{
+    margin: 0;
+}
+
+.ant-form-item-control-input-content{
+    margin-bottom: 1.5rem;
+}
+
+input.ant-input{
+    padding: .75rem !important;
+}
